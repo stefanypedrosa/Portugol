@@ -47,9 +47,9 @@ programa
 			bloqueios += bloqueios
 			ataques += ataques
 		}
-		saques = (tSaques/saques) * 100
-		bloqueios = (tBloqueios/bloqueios) * 100
-		ataques = (tAtaques/ataques) * 100
+		saques = saques/tSaques * 100
+		bloqueios = bloqueios/tBloqueios * 100
+		ataques = ataques/tAtaques * 100
 		escreva("Pontos de Saque: " + saques + "%\nPontos de Bloqueio: " + bloqueios + "%\nPontos de Ataque: " + ataques)
 	}
 }
@@ -58,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1862; 
+ * @POSICAO-CURSOR = 1954; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
