@@ -19,7 +19,7 @@ programa
 		{
 			picos++
 		}
-		para(i=1; i<=8; i++)
+		para(i=1; i<9; i++)
 		{
 			se(vt[i]>vt[i-1] e vt[i]>vt[i+1])
 			{
@@ -34,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 67; 
+ * @POSICAO-CURSOR = 247; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
