@@ -15,7 +15,7 @@ programa
 			x = y
 			y = i
 		}
-		para(i = x; i < y; i++)
+		para(i = x+1; i < y; i++)
 		{
 			se(i % 2 != 0)
 			{
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 417; 
+ * @POSICAO-CURSOR = 330; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
